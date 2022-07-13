@@ -1,0 +1,63 @@
+body {
+    color: black;
+    font: 16px helvetica, sans-serif;
+    margin: 25; padding: 25;   
+    
+}
+#black{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+}
+
+#padawan   {
+    position: absolute; 
+	left:0;
+	top:0;
+    display: flex;
+    margin-left:4%;
+    
+}
+#flex   {
+    position: absolute;
+	right:0;
+	top:0;
+	}
+
+.menu {
+    width: 35%;
+    margin-left: -8%; 
+    margin-top: 1%;
+   
+}
+
+.menu ul li {
+   
+    margin: 0; 
+    padding: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-align: initial;
+    list-style-type: none;
+  
+}
+
+
+.menu a:link {
+    background: rgb(182, 181, 181);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 35px;
+    display:flex;
+    
+    
+}
+
+.menu a:hover {
+    background: #FFC700;
+    color: black;
+      
+}
